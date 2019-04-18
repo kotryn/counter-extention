@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Ile dni zostało do wyjazdu?",
+  "short_name": "Counter",
+  "description": "Counter",
+  "version": "3",
+  "author": "kotryn",
+  "browser_action": {
+    "default_title": "trololo",
+    "default_popup": "index.html",
+    "default_icon": "bomb3.png"
+  },
+  "icons": {
+    "16": "bomb16.png",
+    "48": "bomb48.png",
+    "128": "bomb128.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "MacCtrl+Shift+A"
+      },
+      "description": "Opens index.html"
+    }
+  }
+}
